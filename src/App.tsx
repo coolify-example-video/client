@@ -53,7 +53,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Value </h1>
+      <h1>Update title </h1>
       <button onClick={handleAdd}>add course</button>
       <input value={name} onChange={(e) => setName(e.target.value)} />
       <div className="card">
